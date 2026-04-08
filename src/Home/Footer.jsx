@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <div className='bg-[#252E42]'>
-            <div className='max-w-screen-xl mx-auto justify-center md:pt-20 md:pb-10 md:px-10 py-10'>
+            <div className='max-w-7xl mx-auto justify-center md:pt-20 md:pb-10 md:px-10 py-10'>
                 <h1 className='text-[#aaa] md:text-base text-sm justify-center pb-5 px-5 '>
                     Website last updated: April 08, 2026
                 </h1>
