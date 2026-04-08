@@ -12,7 +12,7 @@ const Footer = () => {
                         <img src='../whitelogo.png' className='md:w-52 w-52' alt='favicon.png'/>
                     </a>
                 </span>
-                <div className='md:grid md:grid-cols-5 md:gap-8 max-w-screen-2xl mx-auto justify-center py-5 text-white px-7'>
+                <div className='md:grid md:grid-cols-4 md:gap-8 max-w-screen-2xl mx-auto justify-center py-5 text-white px-7'>
                     <div className=''>
                         <h1 className='text-white text-base justify-center font-semibold'>
                             Empower your business with Safeguard digital assets
@@ -37,7 +37,7 @@ const Footer = () => {
                             33 Queen St, London EC4R 1AP. <br /> 15813 Waterloo Rd, Cleveland, OH 44110, USA.
                         </p>
                     </div>
-                    <div className='md:pt-0 pt-10'>
+                    {/* <div className='md:pt-0 pt-10'>
                         <h1 className='text-white text-base justify-center font-semibold'>
                             Service
                         </h1>
@@ -51,7 +51,7 @@ const Footer = () => {
                                 <li><Link to="/online-consulting" className="text-sm text-[#C3CDD3] hover:text-base duration-500">Online Consulting</Link></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                     <div className='md:pt-0 pt-10'>
                         <h1 className='text-white text-base justify-center font-semibold'>
                             Community
